@@ -1,0 +1,19 @@
+Instructor : 
+Josef P.
+
+
+
+# variables 
+
+
+variable is a name you give to a value
+
+
+
+#numbers in python
+
+
+Integer  
+float
+
+
