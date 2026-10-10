@@ -1,0 +1,12 @@
+{
+  "friends": [
+    { "name": "atul", "age": 23 },
+    { "name": "vimal", "age": 29 },
+    { "name": "tiwari", "age": 19 }
+  ],
+  "enemy": [
+    { "name": "enemy1", "age": 34 },
+    { "name": "enemy1", "age": 34 },
+    { "name": "enemy2", "age": 39 }
+  ]
+}
