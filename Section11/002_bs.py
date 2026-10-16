@@ -1,9 +1,17 @@
 import requests
-
+from fake_useragent import UserAgent
 import bs4 as bs
 import re 
 
-data=requests.request(method='GET',url='https://books.toscrape.com').text
+headers={
+'User-Agent': UserAgent () .random,
+'Accept-Language': 'en-US, en;q=0.9',
+'Accept-Encoding': 'gzip, deflate, br',
+'Connection': 'keep-alive',
+'Referer': "https://www.google.com"
+}
+
+data=requests.request(method='GET',url='https://books.toscrape.com').content
 
 bsData=bs.BeautifulSoup(data,'html.parser')
 
